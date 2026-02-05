@@ -1,0 +1,29 @@
+#title {
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin: 10px auto;
+    font: 50px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#login-form {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    border: 3px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#login-form label {
+    display: block;
+}
+#login-form input[type="text"],
+#login-form input[type="password"]{
+    display: flex;
+    width: 100%;
+}
+
+#submit {
+    width: 25%;
+}
