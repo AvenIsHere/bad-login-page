@@ -13,3 +13,9 @@ button.addEventListener('click', () => {
     event.preventDefault();
     window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 })
+
+window.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+    }
+})
