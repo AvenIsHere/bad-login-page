@@ -26,4 +26,5 @@
 
 #submit {
     width: 25%;
+    transition: all 0.1s ease;
 }

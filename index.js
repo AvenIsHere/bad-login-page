@@ -9,8 +9,8 @@ button.addEventListener('mouseenter', () => {
     button.style.top = `${randomY}px`;
 });
 
-button.addEventListener('click', () => {
-    event.preventDefault();
+button.addEventListener('click', function(e) {
+    e.preventDefault();
     window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 })
 
